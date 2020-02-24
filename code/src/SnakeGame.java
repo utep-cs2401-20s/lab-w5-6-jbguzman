@@ -25,7 +25,7 @@ public class SnakeGame {
     }
 
     private int[] findTailRecursive(int[] currentPosition, int [] previousPosition){
-
+//
     }
 
     private void resetCounters(){
