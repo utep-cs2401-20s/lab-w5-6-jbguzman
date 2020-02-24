@@ -24,7 +24,7 @@ public class SnakeGame {
 
     }
 
-    private int[] findTailRecusive(int[] currentPosition, int [] previousPosition){
+    private int[] findTailRecursive(int[] currentPosition, int [] previousPosition){
 
     }
 
