@@ -10,17 +10,30 @@ public class SnakeGame {
     }
 
     public SnakeGame(boolean[][] board, int x, int y){
-        this.game = boolean [][] board;
-        int[0] headPosition = x;
-        int[1] headPosition = y;
+        helper(board);
+        this.headPosition[0] = x;
+        this.headPosition[1] = y;
 
+    }
+
+    public boolean helper(boolean[][] board){
+        for(int i = 0; i < game.length; i++) {
+            for (int j = 0; j < game[i].length; j++) {
+                game = new int[][] board;
+            }
+        }
+        return true;
     }
 
     public int[] findTailExhaustive(){
+        resetCounters();
 
+        //return
     }
 
     public int[] findTailRecursive(){
+        resetCounters();
+        
 
     }
 
@@ -34,10 +47,12 @@ public class SnakeGame {
     }
 
     private static int getRecursiveChecks(){
+        return recursiveChecks;
 
     }
 
     private static int getExhaustiveChecks(){
+        return exhaustiveChecks;
 
     }
 
