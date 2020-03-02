@@ -9,7 +9,7 @@ public class SnakeGame {
         game = new boolean[1][1];
     }
 
-    //constructor
+    //constructor 
     public SnakeGame(boolean[][] game, int x, int y){
         this.game = game;
         this.headPosition = new int[2];
